@@ -745,7 +745,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -992,7 +992,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultImageStyle",
@@ -1175,7 +1175,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1385,7 +1385,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1686,7 +1686,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -1731,7 +1731,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -2010,7 +2010,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -2055,7 +2055,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -2326,7 +2326,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -2371,7 +2371,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultLabelStyle",
@@ -2659,7 +2659,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -2704,7 +2704,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -2990,7 +2990,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -3035,7 +3035,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -3321,7 +3321,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Design",
@@ -3366,7 +3366,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
@@ -3940,7 +3940,7 @@
         {
           "Category": "Design",
           "PropertyName": "FocusedBorderThickness",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         }
       ],
       "StyleName": "defaultRectangleStyle",
@@ -4100,7 +4100,7 @@
         {
           "Category": "Design",
           "PropertyName": "TabIndex",
-          "RuleProviderType": "User"
+          "RuleProviderType": "Unknown"
         },
         {
           "Category": "Behavior",
