@@ -1,8 +1,10 @@
 contactus As screen:
 
     Icon1_2 As icon.BackArrow:
+        AccessibleLabel: ="Back"
         Icon: =Icon.BackArrow
         OnSelect: =Back()
+        TabIndex: =0
         X: =18
         Y: =189
         ZIndex: =14
@@ -22,8 +24,10 @@ contactus As screen:
             ZIndex: =1
 
         Rectangle2_3 As rectangle:
+            AccessibleLabel: ="Header"
             Fill: =RGBA(0,0,0,1)
             Height: =50
+            TabIndex: =0
             Width: =1366
             ZIndex: =3
 
@@ -46,10 +50,12 @@ contactus As screen:
         Label1_19 As label:
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             FontWeight: =FontWeight.Bold
             Height: =100
             OnSelect: =Navigate(home)
             Size: =25
+            TabIndex: =0
             Text: ="All Things Movies and TV App"
             Width: =735
             X: =15
@@ -88,9 +94,12 @@ contactus As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(accesibility)
             Size: =10
+            TabIndex: =0
             Text: ="Accessibility" 
+            Underline: =true
             Width: =125
             X: =73
             Y: =688
@@ -100,9 +109,12 @@ contactus As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(privacy)
             Size: =10
+            TabIndex: =0
             Text: ="Privacy"
+            Underline: =true
             Width: =125
             X: =198
             Y: =688
@@ -112,9 +124,12 @@ contactus As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(contactus)
             Size: =10
+            TabIndex: =0
             Text: ="Contact us"
+            Underline: =true
             Width: =125
             X: =323
             Y: =688
@@ -124,9 +139,11 @@ contactus As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: |-
                 =Launch("https://www.ontario.ca/page/copyright-information")
             Size: =10
+            TabIndex: =0
             Text: ="© King's Printer for Ontario, 2012–24"
             Width: =314
             X: =100

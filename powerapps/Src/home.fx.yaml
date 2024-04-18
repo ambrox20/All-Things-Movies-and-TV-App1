@@ -1,6 +1,7 @@
 home As screen:
 
     "Gallery1 As gallery.'BrowseLayout_Horizontal_TwoTextOneImageOverlayVariant_ver5.0'":
+        AccessibleLabel: ="Galery"
         BorderColor: =RGBA(0, 0, 0, 1)
         DelayItemLoading: =true
         Height: =538
@@ -8,6 +9,7 @@ home As screen:
         LoadingSpinner: =LoadingSpinner.Data
         NavigationStep: =1.5
         ShowNavigation: =true
+        TabIndex: =0
         TemplatePadding: =0
         TemplateSize: =Min(440, Self.Height - 60)
         Transition: =Transition.Pop
@@ -17,7 +19,7 @@ home As screen:
 
         Image1 As image:
             Height: =Parent.TemplateHeight - 32
-            Image: =ThisItem.poster
+            Image: =ThisItem.Poster
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =8
@@ -46,7 +48,7 @@ home As screen:
             PaddingRight: =0
             PaddingTop: =0
             Text: |-
-                ="Title: "&ThisItem.Name
+                ="Title: "&ThisItem.Title
             VerticalAlign: =VerticalAlign.Top
             Width: =Overlay1.Width - 32
             X: =32
@@ -62,7 +64,7 @@ home As screen:
             PaddingTop: =0
             Size: =12
             Text: |-
-                ="Year: "&ThisItem.year
+                ="Year: "&ThisItem.Year
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
             X: =Title3.X
@@ -78,7 +80,7 @@ home As screen:
             PaddingTop: =0
             Size: =12
             Text: |-
-                ="Genre: "&ThisItem.genre
+                ="Genre: "&ThisItem.Genre
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
             X: =32
@@ -94,7 +96,7 @@ home As screen:
             PaddingTop: =0
             Size: =12
             Text: |-
-                ="Actors: "&ThisItem.actors
+                ="Actors: "&ThisItem.Actors
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
             X: =32
@@ -110,7 +112,7 @@ home As screen:
             PaddingTop: =0
             Size: =12
             Text: |-
-                ="Plot: "&ThisItem.plot
+                ="Plot: "&ThisItem.Plot
             VerticalAlign: =VerticalAlign.Top
             Width: =Title3.Width
             X: =32
@@ -130,7 +132,7 @@ home As screen:
             OnSelect: =Navigate(detailView)
             PressedFill: |-
                 =//Self.Color
-                RGBA()
+                RGBA(0,0,0,0)
             Text: =""
             Width: =408
             X: =16
@@ -152,14 +154,17 @@ home As screen:
             ZIndex: =1
 
         Rectangle2 As rectangle:
+            AccessibleLabel: ="Header"
             Fill: =RGBA(0,0,0,1)
             Height: =50
+            TabIndex: =0
             Width: =1366
             ZIndex: =3
 
         Image2 As image:
             Height: =50
             Image: =ON_REV_LOGO_RGB
+            Tooltip: ="Ontario logo"
             Width: =133
             ZIndex: =4
 
@@ -176,11 +181,14 @@ home As screen:
         Label1_1 As label:
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             FontWeight: =FontWeight.Bold
             Height: =100
             OnSelect: =Navigate(home)
             Size: =25
+            TabIndex: =0
             Text: ="All Things Movies and TV App"
+            Tooltip: ="All Things Movies and TV App"
             Width: =508
             X: =15
             Y: =50
@@ -218,9 +226,12 @@ home As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(accesibility)
             Size: =10
+            TabIndex: =0
             Text: ="Accessibility" 
+            Underline: =true
             Width: =125
             X: =73
             Y: =688
@@ -230,9 +241,12 @@ home As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(privacy)
             Size: =10
+            TabIndex: =0
             Text: ="Privacy"
+            Underline: =true
             Width: =125
             X: =198
             Y: =688
@@ -242,9 +256,12 @@ home As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: =Navigate(contactus)
             Size: =10
+            TabIndex: =0
             Text: ="Contact us"
+            Underline: =true
             Width: =125
             X: =323
             Y: =688
@@ -254,9 +271,11 @@ home As screen:
             Align: =Align.Center
             Color: =RGBA(241, 244, 249, 1)
             Fill: =RGBA(255, 255, 255, 0)
+            FocusedBorderThickness: =1
             OnSelect: |-
                 =Launch("https://www.ontario.ca/page/copyright-information")
             Size: =10
+            TabIndex: =0
             Text: ="© King's Printer for Ontario, 2012–24"
             Width: =314
             X: =100
