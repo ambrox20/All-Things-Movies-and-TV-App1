@@ -38,6 +38,7 @@ detailView As screen:
             Height: =50
             Image: =ON_REV_LOGO_RGB
             TabIndex: =0
+            Tooltip: ="Ontario logo"
             Width: =133
             ZIndex: =4
 
@@ -66,6 +67,7 @@ detailView As screen:
             Size: =25
             TabIndex: =0
             Text: ="All Things Movies and TV App"
+            Tooltip: ="Go home"
             Width: =508
             X: =15
             Y: =50
