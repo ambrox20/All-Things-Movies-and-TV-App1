@@ -1,0 +1,103 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "none_movieses",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "none_movies",
+    "Name": "Movies",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "importsequencenumber": "Import Sequence Number",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "none_actors": "actors",
+      "none_genre": "genre",
+      "none_imdb_id": "IMDB_ID",
+      "none_movies_AsyncOperations": "System Jobs",
+      "none_movies_BulkDeleteFailures": "Bulk Delete Failures",
+      "none_movies_DuplicateBaseRecord": "Duplicate Records (none_movies_DuplicateBaseRecord)",
+      "none_movies_DuplicateMatchingRecord": "Duplicate Records (none_movies_DuplicateMatchingRecord)",
+      "none_movies_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "none_movies_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "none_movies_ProcessSession": "Process Sessions",
+      "none_movies_SyncErrors": "Sync Errors",
+      "none_moviesid": "Movies",
+      "none_name": "Name",
+      "none_plot": "plot",
+      "none_poster": "poster",
+      "none_posterid": "none_posterId",
+      "none_year": "year",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Movies",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Movies (Views)",
+    "Name": "_none_movies_views",
+    "RelatedEntityName": "Movies",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "0ffda18f-cbd9-4a12-aef1-d9fa82881f04": "Movies Associated View",
+      "52526421-0b0c-4315-b525-82dc774d0d2e": "Movies Advanced Find View",
+      "5dd0098e-e804-4c62-9732-0afddf083cfc": "Inactive Movies",
+      "849652c4-d7ba-4988-94f1-8c924bd530f2": "Active Movies",
+      "c9aa65e7-6bc3-4877-b582-96f5f47f3bec": "Movies Lookup View"
+    }
+  },
+  {
+    "DisplayName": "Status (Movies)",
+    "Name": "none_movies_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Movies"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Movies",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Movies)",
+    "Name": "none_movies_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "Active",
+      "2": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Movies"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Movies",
+    "Type": "OptionSetInfo"
+  }
+]
